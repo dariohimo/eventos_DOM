@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    top: 0;
+    box-shadow: none;
+}
+
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    background-color: aqua;
+    
+}
+    
+h1 {
+    flex: auto;
+    margin-left: 20px;
+    color: blueviolet  ;
+}
+
+ul {
+    display: flex;
+    margin-right: 20px;
+   
+}
+
+li {
+    border-radius: 10% 30% 50% 70%;;
+    text-decoration: none;
+    list-style: none;
+    /*background-color: rgba(240, 18, 233, 0.755);*/
+    margin: 10px;
+    padding: 10px;
+    color: rgb(219, 233, 18);
+    
+
+}
+
+.randomNumber, .botonNumber {
+    margin-left: 25px;
+    
+}
+
+.botonNumber {
+    background-color: cyan;
+}
+
+#aleatorioRan {
+    color:rgb(191, 18, 90);
+}
